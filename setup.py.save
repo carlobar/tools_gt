@@ -1,0 +1,10 @@
+from setuptools import find_packages, setup
+
+setup(
+	name='tools-gt',
+	packages=find_packages(),
+	version='0.1.0',
+	description='Library with classes and functions to analyze games',
+	author='Carlos Barreto',
+	license='MIT',
+)
